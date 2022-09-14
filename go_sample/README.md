@@ -1,13 +1,5 @@
-## How to use
-
-build Dockerfile  
-`docker build ./ -t imageName`
-
-run docker container  
-`docker run -it --rm imageName`
-
-attach VSCode to container
-press `F1` and choise Remote Containers
-(Install Remote-COntainers Extention in advance)
-
-start coding to /go/src/app
+## How to use go
+- VSCode に remote-container の extention を install
+- VSCode の左下の緑の部分をクリック
+- Reopen in container を選択
+- コンテナが立ち上がり、接続された状態でVSCodeが開く

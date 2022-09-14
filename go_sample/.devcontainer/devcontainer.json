@@ -27,6 +27,7 @@
 	// "remoteUser": "vscode"
 	"extensions": [
 		"golang.go",
+		"ms-azuretools.vscode-docker",
 	],
 	"settings": {
 		"editor.insertSpaces": false,
