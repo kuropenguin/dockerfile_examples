@@ -10,7 +10,5 @@ RUN go install -v golang.org/x/tools/gopls@latest \
 
 RUN mkdir /go/src/app
 WORKDIR /go/src/app
-
-# pre-copy/cache go.mod for pre-downloading dependencies and only redownloading them in subsequent builds if they change
-COPY . ./
+COPY go.mod ./
 RUN go mod download && go mod verify
