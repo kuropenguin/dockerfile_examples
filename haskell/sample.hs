@@ -1,0 +1,2 @@
+doubleNum x = x + x
+

@@ -1,6 +1,6 @@
 {
 	"name": "HaskellDevContainer",
-	"image": "haskell:9",
+	"dockerFile": "../Dockerfile",
 	"extensions": [
 		"haskell.haskell"
 	],
