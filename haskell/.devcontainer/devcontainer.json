@@ -1,0 +1,7 @@
+{
+	"name": "HaskellDevContainer",
+	"dockerFile": "../Dockerfile",
+	"extensions": [
+		"haskell.haskell"
+	],
+}
